@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+#      defaultZone: http://eureka:8761/eureka/
+server:
+  port: 9007
+spring:
+  application:
+    name: service-security
